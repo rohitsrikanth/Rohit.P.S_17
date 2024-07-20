@@ -1,0 +1,310 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000; /* Black */
+}
+
+.navigation {
+    position: relative;
+    left: 250px;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url('images/Purple Illustrated Mountain Desktop Wallpaper.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+}
+
+nav {
+    background-color: #2f4f4f; /* Dark Slate Gray */
+    color: #fff; /* White */
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff; /* White */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+section {
+    padding: 2em;
+    background-color: #f7f7f7; /* Light Gray */
+    position: relative;
+    min-height: 100vh;
+    color: #000; /* Black */
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #000;
+}
+
+.content1 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #d6d0d0;
+}
+.content2 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+}
+h1 {
+    font-size: 32px;
+    margin-top: 0;
+}
+#skills {
+  background-image: url('skills-bg.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.skill {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.skill h3 {
+  margin-top: 0;
+}
+
+.skill ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill li {
+  margin-bottom: 10px;
+}
+
+.skill li:before {
+  content: "\2713"; /* checkmark symbol */
+  margin-right: 10px;
+  color: #337ab7;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #0c08fd; /* Teal */
+    color: #fff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #006666; /* Darker Teal */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:#ffffff; /* Teal */
+}
+
+a:hover {
+    color: #006666; /* Darker Teal */
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .content {
+    max-width: 600px;
+}
+
+#about .profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 20px;
+}
+#projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects li {
+    margin: 20px;
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+#projects .project-thumb {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #008080; /* Teal */
+    color: #fff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #006666; /* Darker Teal */
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .skill {
+    background-color: rgba(21, 112, 197, 0.795);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .skill h3 {
+    margin-top: 0;
+  }
+  
+  .skill ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skill li {
+    margin-bottom: 10px;
+  }
+  
+  .skill li:before {
+    content: "\2713"; /* checkmark symbol */
+    margin-right: 10px;
+    color: #000000;
+  }
+
+  .skills-grid1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+  }
+  
+  .skill1 {
+    background-color: rgba(21, 112, 197, 0.795);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center text inside the skill div */
+  }
+  
