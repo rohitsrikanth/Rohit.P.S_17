@@ -1,3 +1,11 @@
+// Add event listeners to navigation menu items
+document.querySelectorAll('navbar').forEach((link) => {
+  link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const sectionId = link.getAttribute('href').substring(1);
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+  });
+});
 
 // Add event listeners to project links
 document.querySelectorAll('#projects a').forEach((link) => {
